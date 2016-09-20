@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Resume of {{name}}</title>
+	<link rel="stylesheet" href="{{meta.root}}/style.css">
+</head>
+<body>
+	<header class="main">
+		<h1>{{name}}</h1>
+		<h2>{{title}}</h2>
+	</header>
+
+	<header class="sub">
+		<!-- <div class="item">Born: {{born}}</div> -->
+		<div class="item">{{email}}</div>
+		<div class="item">{{residence}}</div>
+	</header>
+
+	<aside>
+		<article class="entry">
+			{% if website %}
+				<h3>Web</h3>
+				<p>
+					<a href="{{website}}">{{website}}</a>
+				</p>
+			{% endif %}
+			{% if social_portals %}
+				{% for portal in social_portals %}
+					<p>{{portal.title}}: <a href="{{portal.baseurl}}/{{portal.url}}">{{portal.url}}</a></p>
+				{% endfor %}
+			{% endif %}
+		</article>
+
+		<article class="entry">
+			<h3>Skype</h3>
+			<p>{{skype}}</p>
+		</article>
+
+		{% if technologies %}
+			<article class="entry">
+				<h3>Technologies</h3>
+				{% for key, technology in technologies %}
+					<h4>{{key|capitalize}}</h4>
+					<p>{{technology}}</p>
+				{% endfor %}
+			</article>
+		{% endif %}
+
+		{% if languages %}
+			<article class="entry">
+				<h3>Languages</h3>
+				<ul>
+					{% for lang in spoken_languages %}
+						<li>{{lang.language}} – {{lang.level}}</li>
+					{% endfor %}
+				</ul>
+			</article>
+		{% endif %}
+
+		{% if volunteering %}
+			<article class="entry">
+				<h3>Volunteering</h3>
+				<ul>
+					{% for vol in volunteering %}
+						<li>{{ vol }}</li>
+					{% endfor %}
+				</ul>
+			</article>
+		{% endif %}
+
+		<article>
+			<h3>Fun fact</h3>
+			<p>
+				This resume was generated with <a href="https://github.com/aaronsama/node-resume">node-resume</a> and is also available in JSON format.</p>
+		</article>
+	</aside>
+
+	<div class="main">
+		{% if short_bio %}
+		<article class="entry">
+			<h3>Bio</h3>
+			<p>{{short_bio}}</p>
+		</article>
+		{% endif %}
+
+		{% if job_history %}
+			<article class="entry">
+				<h3>Work experience</h3>
+				<ul>
+					{% for job in job_history %}
+						<li>
+							<strong>{{job.employer}}</strong><br>
+							<em>{{job.role}}, {{job.date}}</em><br>
+							{{job.description}}
+						</li>
+					{% endfor %}
+				</ul>
+			</article>
+		{% endif %}
+
+		{% if projects %}
+			<article class="entry">
+				<h3>Projects</h3>
+				<ul>
+					{% for project in projects %}
+						<li>
+							<strong>{{project.title}}</strong>
+							<br>
+							{{project.description}}
+							<br>
+							<a href="{{project.url}}">Visit project</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</article>
+		{% endif %}
+
+		{% if education %}
+			<article class="entry">
+				<h3>Education</h3>
+				<ul>
+					{% for edu in education %}
+						<li>
+							{{edu.date}}<br>
+							{{edu.description}}
+						</li>
+					{% endfor %}
+				</ul>
+			</article>
+		{% endif %}
+
+		{% if teaching %}
+			<article class="entry">
+				<h3>Teaching</h3>
+				<ul>
+					{% for teach in teaching %}
+						<li>
+							{{teach.date}}<br>
+							<em>{{teach.institution}}</em><br>
+							{{teach.course}}
+						</li>
+					{% endfor %}
+				</ul>
+			</article>
+		{% endif %}
+	</div>
+
+	{% if publications and publications.length > 0 %}
+	<article class="attachment">
+		<h3>Publications</h3>
+		<ul>
+			{% for publication in publications %}
+			<li>
+				{{publication.Fields.Author}} ({{publication.Fields.Year}}). <strong>{{ publication.Fields.Title }}.</strong>
+				{% if publication.EntryType == 'inproceedings' %}
+				In {{ publication.Fields.Booktitle }}.
+				{% if publication.Fields.Editor %}
+				{{ publication.Fields.Editor }} (Eds.)
+				{% endif %}
+				{% if publication.Fields.Publisher %}
+				{{ publication.Fields.Publisher }}.
+				{% endif %}
+				{% elseif publication.EntryType == 'article' %}
+				<em>{{ publication.Fields.Journal }},</em>
+				{{ publication.Fields.Volume }}
+				{% if publication.Fields.Number %}
+				({{publication.Fields.Number}}),
+				{% endif %}
+				{% if publication.Fields.Pages %}
+				p. {{ publication.Fields.Pages | replace({"--": '–'}) }}.
+				{% endif %}
+				{% elseif publication.EntryType == 'phdthesis' %}
+				PhD Thesis. {{ publication.Fields.School }}
+				{% elseif publication.EntryType == 'mastersthesis' %}
+				{% if publication.Fields.Type %}
+				{{ publication.Fields.Type }}.
+				{% else %}
+				Master's Thesis.
+				{% endif %}
+				{{ publication.Fields.School }}.
+				{% endif %}
+			</li>
+			{% endfor %}
+		</ul>
+	</article>
+	{% endif %}
+</body>
+</html>
