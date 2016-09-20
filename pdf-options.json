@@ -1,6 +1,6 @@
 {
-	"format": "Letter",
-	"base": "file:///dev/github/node-cv/views/",
+	"format": "A4",
+	"base": "file:///views/",
 	"header": {
 		"height": "20mm",
 		"margin": "0mm",

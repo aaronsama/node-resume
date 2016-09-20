@@ -1,39 +1,36 @@
 {
-	"name": "Tibor Szász",
-	"title": "Full stack developer",
-	"born": "1983",
-	"email": "tibor@szasz.hu",
-	"website": "http://tibor.szasz.hu",
-	"skype": "kowdermeister",
-	"family": "life partner",
-	"residence": "Budapest, Hungary",
-	"short_bio": "I'm a full-stack developer focusing on front-end with 10+ years experience. I'm passonate about design, UX, music and creative hobbies in general. I've been part of two startup accelerators.",
+	"name": "Aaron Ciaghi",
+	"title": "Researcher - Full stack developer - Project manager",
+	"born": "1985",
+	"email": "aaron.ciaghi@gmail.com",
+	"website": "http://aaronsama.github.io",
+	"skype": "a2ron-sama",
+	"family": "married",
+	"residence": "via Marsilli 7, 38068 Rovereto, Italy",
+	"short_bio": "I'm a resarcher in ICT and a full stack developer with 4+ years of experience in Agile software development in Ruby on Rails. I developed web applications for",
 	"technologies": {
-		"frontend": "JavaScript, HTML5, CSS3, jQuery, Underscore, SASS, LESS, Backbone, Socket.io, WebAudio, Canvas, Paper.js, Bootstrap, Material design, Polymer, Semantic UI", 
-		"backend": "PHP5, Laravel, CodeIgniter, Node.js, WebGL, Three.js, Processing, C++",
-		"workflow": "Git, GitHub, BitBucket, Gulp, Bower, NPM"
+		"frontend": "JavaScript, HTML5, CSS3, jQuery, AngularJS, SASS, Bootstrap, MDL",
+		"backend": "Ruby, Ruby on Rails, Node.js (learning)",
+		"I'd like to learn": "Angular 2, React"
 	},
 
 	"social_portals": [
-		{"title": "Github", "url": "https://github.com/tiborsaas" },
-		{"title": "LinkedIn", "url": "https://hu.linkedin.com/in/tiborszasz" },
-		{"title": "Facebook", "url": "https://www.facebook.com/szasz" }
-	],
-
-	"interests": [ 
-		"Music making",
-		"Rideing bike",
-		"Hanging out with friends"
+		{"title": "Github", "baseurl": "https://github.com", "url": "aaronsama" },
+		{"title": "LinkedIn", "baseurl": "https://it.linkedin.com/in", "url": "aaron.ciaghi" }
 	],
 
 	"education": [
 		{
-			"date": "2003 - ",
-			"description": "Seft taught web developer"
+			"date": "2010 - 2014",
+			"description": "University of Trento - PhD in Information and Communication Technologies"
 		},
 		{
-			"date": "1997 - 2001",
-			"description": "IT focused high school"
+			"date": "2007 - 2010",
+			"description": "University of Trento and Georgia Institute of Technology - MS Degree in Computer Science"
+		},
+		{
+			"date": "2004 - 2007",
+			"description": "University of Trento - BS Degree in Computer Science"
 		}
 	],
 
@@ -67,30 +64,60 @@
 
 	"job_history": [
 		{
-			"employer": "Stunn",
-			"date": "2013 - 2016",
-			"role": "I founded a startup with the goal to build a browser based video editing platfrom. We reached private beta. I created all frontend code, UX."
+			"employer": "Fondazione Bruno Kessler - ICT Research Centre",
+			"date": "2014 - present",
+			"role": "Researcher",
+      "description": "Managed and actively involved in various software development projects for social good. Coordinated the writing of grant proposals (including FP7 and H2020). Conducted research work in ICT4D, Food Waste supply chain and Agile Software Development. Organized and conducted training in Mozambique and South Africa on Agile software development. Supervised students, junior developers as well as BS and MS theses in Computer Science."
 		},
 		{
-			"employer": "CloudDeck",
-			"date": "2012 - 2013",
-			"role": "I founded a music starup to collect and analyze music from the web with my own search bot, using the SoundCloud API."
+			"employer": "University of Trento - Department of Cognitive Sciences",
+			"date": "2016",
+			"role": "Lecturer",
+			"description": "Designed and taught a 15 hours course on modern web technologies for the technical personnel of the Department. Topics covered included advanced Javascript concepts, SASS, AngularJS and Ionic Framework basics."
 		},
 		{
-			"employer": "Rebel Rouse digital agency",
+			"employer": "Belka s.r.l.",
+			"date": "2015",
+			"role": "Consulting Developer",
+			"description": "Bootstrapped the development of a mobile application for peer-to-peer delivery using Ionic, Cordova and AngularJS. This included estimation of user stories and introduction of coding standards and best practices."
+		},
+		{
+			"employer": "Fondazione Bruno Kessler and University of Trento",
+			"date": "2010 - 2014",
+			"role": "PhD Student",
+			"description": "Full-time PhD student at the ICT Doctoral School of the University of Trento conducting work at Fondazione Bruno Kessler in ICT for Development, focusing on software development processes and project management for ICT4D projects."
+		}
+	],
+
+	"teaching": [
+		{
+			"date": "2016",
+			"institution": "University of Trento - Department of Cognitive Sciences",
+			"course": "Advanced Javascript and client-side web frameworks"
+		},
+		{
+			"date": "2011 - 2013",
+			"institution": "Maputo Living Lab",
+			"course": "Summer School of ICTs and Summer School of Ruby on Rails"
+		},
+		{
 			"date": "2010 - 2012",
-			"role": "I was the head of development and UX. I helped to translate client needs to production ready specifications."
-		},
-		{
-			"employer": "Skyweb web development studio",
-			"date": "2007 - 2010",
-			"role": "My first venture to build websites and web applications for clients. As a founder I participated and oversaw development."
+			"institution": "University of Trento - Department of Information Engineering and Computer Science",
+			"course": "eGovernment Case Studies (part of the Professional Master of Technologies for eGovernment)"
 		}
 	],
 
 	"spoken_languages": [
-		{"language": "Hungarian", "level": "native"},
+		{"language": "Italian", "level": "native"},
 		{"language": "English", "level": "fluent"},
-		{"language": "German", "level": "basic"}
+		{"language": "Japanese", "level": "intermediate"},
+		{"language": "Portuguese", "level": "basic"},
+		{"language": "German", "level": "basic"},
+		{"language": "Mandarin Chinese", "level": "basic"}
+	],
+
+	"volunteering": [
+		"AFS Intercultural Programs (since 2002)",
+		"Yomoyamabanashi (since 2007)"
 	]
 }

@@ -22,12 +22,30 @@ const minimist = require('minimist')(process.argv.slice(2));
 const cvData = require('./data/cv.json');
 const PDFoptions = require('./pdf-options.json')
 const express = require('express'), app = express();
+const BibTexParser = require('bib2json');
+
+/**
+ * Check for a BibTex file and add publications
+ */
+try {
+	let bibTexData = fs.readFileSync('./data/publications.bib', 'utf8');
+	console.log(chalk.yellow('You are a scientist! Adding your publications to the CV...'));
+
+	let pubData = BibTexParser(bibTexData);
+
+	cvData.publications = pubData.entries.sort(function(pub1, pub2) {
+		return parseInt(pub2.Fields.Year) - parseInt(pub1.Fields.Year);
+	});
+} catch(e) {
+	console.log(chalk.yellow('No publications file found. Add them in BiBTeX format to ./data/publications.bib'));
+}
 
 /**
  * Some helper stuff for user friendly command line juggling
  * npm start dev > this launches a web server to help debug CSS
  * npm start dev [templatename] > same as above, but with the desired template
  * npm start [templatename] > this renders the template
+ * npm start [dev] [templatename] -- --skip=first,second > as above skipping sections first and second
  */
 if (minimist._.length > 0) {
 	if (minimist._[0] == 'dev') {
@@ -44,6 +62,11 @@ if (minimist._.length > 0) {
 		if( !checkTemplateFolder( template ) ) {
 			return;
 		}
+	}
+
+
+	if (minimist['skip']) {
+		(minimist['skip'].split(',')).forEach((item) => { delete cvData[item] });
 	}
 }
 
@@ -69,7 +92,6 @@ cvData.meta = meta;
  */
 PDFoptions.base += template;
 
-
 /**
  * Start a server to display the template to debug or modify
  */
@@ -86,7 +108,6 @@ if (devMode) {
 	});
 	return; // don't render anything from now on
 }
-
 
 /**
  * Render template and generate PDF
