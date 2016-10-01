@@ -1,15 +1,27 @@
 # Node resume
-This projects helps to generate a PDF resume based on a JSON file. By default two designs are supplied.
+This projects helps to generate a PDF resume based on a JSON file. By default two designs are supplied. This is a fork of node-resume by Tibor Szász (https://github.com/tiborsaas/node-resume).
+
+This fork adds the possibility to add your publications from a BiBTeX file.
 
 [Check out my CV as an example](cv.pdf)
 
 ## Usage
 Just edit a json, use the command line and you are ready to go.
+
 ### Step 1
+
 Install dependenceis with `npm install`.
+
 ### Step 2
+
 Edit the contents of `data/cv-empty.json`.
+
+### Step 2b (optional)
+
+Edit or add your publications to `data/bibliography.bib`
+
 ### Step 3
+
 Type `npm start` in command line. That will render the default template called "basic". You can render other templates by adding the template name that you can find the the `views` folder, like `npm start classic`.
 
 ### Advanced Usage
