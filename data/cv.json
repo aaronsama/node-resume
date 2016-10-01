@@ -6,8 +6,9 @@
 	"website": "http://aaronsama.github.io",
 	"skype": "***REMOVED***",
 	"family": "***REMOVED***",
+	"phone": "***REMOVED***",
 	"residence": "***REMOVED***",
-	"short_bio": "I'm a resarcher in ICT and a full stack developer with 4+ years of experience in Agile software development in Ruby on Rails. I developed web applications for",
+	"short_bio": "I'm a resarcher in ICT and a full stack developer with 4+ years of experience in Agile software development in Ruby on Rails. My current focus is on the design and implementation of web/mobile applications that address social issues and for rural areas in the Global South.",
 	"technologies": {
 		"frontend": "JavaScript, HTML5, CSS3, jQuery, AngularJS, SASS, Bootstrap, MDL",
 		"backend": "Ruby, Ruby on Rails, Node.js (learning)",
@@ -16,7 +17,8 @@
 
 	"social_portals": [
 		{"title": "Github", "baseurl": "https://github.com", "url": "aaronsama" },
-		{"title": "LinkedIn", "baseurl": "https://it.linkedin.com/in", "url": "aaron.ciaghi" }
+		{"title": "LinkedIn", "baseurl": "https://it.linkedin.com/in", "url": "aaron.ciaghi" },
+		{"title": "Twitter", "baseurl": "http://twitter.com", "url": "a2ronsama" }
 	],
 
 	"education": [
@@ -36,29 +38,24 @@
 
 	"projects": [
 		{
-			"title": "Coding Sans website",
-			"description": "A world class software house focusing on JavaScript",
-			"url": "http://codingsans.com/"
+			"title": "BringTheFood per la Ristorazione",
+			"description": "Web application for charities and canteens to track food waste and donate the daily excess.",
+			"url": "http://ristorazione.bringfood.org"
 		},
 		{
-			"title": "Total Cloud Consulting",
-			"description": "Website for a company who provide AWS consulting",
-			"url": "https://totalcloudconsulting.hu/"
+			"title": "OraDona - Chi raccoglie più cibo?",
+			"description": "Mobile app to help volunteers tally food donations received during food drives",
+			"url": "http://www.collettainoratorio.it"
 		},
 		{
-			"title": "Mosaik Space",
-			"description": "A popular co-working space in Budapest",
-			"url": "http://mosaik.space/"
+			"title": "BringTheFood",
+			"description": "A web application and API to support various food donation/recovery processes.",
+			"url": "https://www.bringfood.org/"
 		},
 		{
-			"title": "ABC All Access",
-			"description": "Comprehensive page for the sales team of ABC",
-			"url": "http://abcallaccess.com/"
-		},
-		{
-			"title": "Onlinefutar.hu",
-			"description": "Full frontend for a shipping broker company",
-			"url": "http://onlinefutar.hu/"
+			"title": "SAMo - Social Accountability for Mozambique",
+			"description": "A web application and API to help citizens support Governments in assessing the current status of facilities in Mozambique's rural areas.",
+			"url": "http://ict4sa.org/samo"
 		}
 	],
 
@@ -67,29 +64,34 @@
 			"employer": "Fondazione Bruno Kessler - ICT Research Centre",
 			"date": "2014 - present",
 			"role": "Researcher",
-      "description": "Managed and actively involved in various software development projects for social good. Coordinated the writing of grant proposals (including FP7 and H2020). Conducted research work in ICT4D, Food Waste supply chain and Agile Software Development. Organized and conducted training in Mozambique and South Africa on Agile software development. Supervised students, junior developers as well as BS and MS theses in Computer Science."
+      "description": "Managed and actively involved in software projects for social good. Coordinated the writing of grant proposals (including FP7 and H2020). Conducted research in ICT4D and Food Waste supply chain. Organized and conducted training in Mozambique and South Africa on Agile software development. Supervised students, junior developers, BS and MS computer science students."
 		},
 		{
 			"employer": "University of Trento - Department of Cognitive Sciences",
 			"date": "2016",
 			"role": "Lecturer",
-			"description": "Designed and taught a 15 hours course on modern web technologies for the technical personnel of the Department. Topics covered included advanced Javascript concepts, SASS, AngularJS and Ionic Framework basics."
+			"description": "Designed and taught a 15 hours course on Javascript, SASS, AngularJS and Ionic for the technical personnel of the Department."
 		},
 		{
 			"employer": "Belka s.r.l.",
 			"date": "2015",
 			"role": "Consulting Developer",
-			"description": "Bootstrapped the development of a mobile application for peer-to-peer delivery using Ionic, Cordova and AngularJS. This included estimation of user stories and introduction of coding standards and best practices."
+			"description": "Bootstrapped the development of a mobile application for peer-to-peer delivery using Ionic, Cordova and AngularJS. This included the introduction of coding standards and best practices."
 		},
 		{
 			"employer": "Fondazione Bruno Kessler and University of Trento",
 			"date": "2010 - 2014",
 			"role": "PhD Student",
-			"description": "Full-time PhD student at the ICT Doctoral School of the University of Trento conducting work at Fondazione Bruno Kessler in ICT for Development, focusing on software development processes and project management for ICT4D projects."
+			"description": "Full-time PhD student focusing on software development processes and project management for ICT projects in the Global South."
 		}
 	],
 
 	"teaching": [
+		{
+			"date": "2014 - 2016",
+			"institution": "Fort Hare University, ECITI Business Incubator, Propella Business Incubator",
+			"course": "Ruby on Rails Development Workshop"
+		},
 		{
 			"date": "2016",
 			"institution": "University of Trento - Department of Cognitive Sciences",

@@ -12,8 +12,8 @@
 	</header>
 
 	<header class="sub">
-		<!-- <div class="item">Born: {{born}}</div> -->
 		<div class="item">{{email}}</div>
+		<div class="item">{{phone}}</div>
 		<div class="item">{{residence}}</div>
 	</header>
 
@@ -47,32 +47,28 @@
 			</article>
 		{% endif %}
 
-		{% if languages %}
+		{% if spoken_languages %}
 			<article class="entry">
 				<h3>Languages</h3>
-				<ul>
-					{% for lang in spoken_languages %}
-						<li>{{lang.language}} – {{lang.level}}</li>
-					{% endfor %}
-				</ul>
+				{% for lang in spoken_languages %}
+					<p>{{lang.language}} – {{lang.level}}</p>
+				{% endfor %}
 			</article>
 		{% endif %}
 
 		{% if volunteering %}
 			<article class="entry">
 				<h3>Volunteering</h3>
-				<ul>
-					{% for vol in volunteering %}
-						<li>{{ vol }}</li>
-					{% endfor %}
-				</ul>
+				{% for vol in volunteering %}
+					<p>{{ vol }}</p>
+				{% endfor %}
 			</article>
 		{% endif %}
 
 		<article>
 			<h3>Fun fact</h3>
 			<p>
-				This resume was generated with <a href="https://github.com/aaronsama/node-resume">node-resume</a> and is also available in JSON format.</p>
+				This resume was generated with my fork of <a href="https://github.com/aaronsama/node-resume">node-resume</a> and is also available in JSON format.</p>
 		</article>
 	</aside>
 
@@ -109,7 +105,9 @@
 							<br>
 							{{project.description}}
 							<br>
-							<a href="{{project.url}}">Visit project</a>
+							{% if project.url %}
+								<a href="{{project.url}}">{{project.url}}</a>
+							{% endif %}
 						</li>
 					{% endfor %}
 				</ul>
