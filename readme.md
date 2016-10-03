@@ -26,10 +26,20 @@ Type `npm start` in command line. That will render the default template called "
 
 ### Advanced Usage
 
-You can skip sections to generate custom CVs for different employers by calling
+#### Skipping sections
+
+You can skip sections to generate custom CVs for different employers by typing
 
 ```
 npm start [template_name] -- --skip=<comma separated section names>
+```
+
+#### Using different source files
+
+You can specify a JSON file different than `data/cv.json` by typing
+
+```
+npm start [template_name] -- --cv=<path/to/cv_file>
 ```
 
 DONE :)
