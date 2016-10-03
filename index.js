@@ -13,13 +13,14 @@ var devMode = false;
 
 // No need to edit below this line
 const Q = require('q');
+const path = require('path');
 const fs = require('fs');
 const os = require('os');
 const pdf = require('html-pdf');
 const twig = require('twig');
 const chalk = require('chalk');
 const minimist = require('minimist')(process.argv.slice(2));
-const cvData = require('./data/cv.json');
+const cvData = loadCVData();
 const PDFoptions = require('./pdf-options.json')
 const express = require('express'), app = express();
 const BibTexParser = require('bib2json');
@@ -63,7 +64,6 @@ if (minimist._.length > 0) {
 			return;
 		}
 	}
-
 
 	if (minimist['skip']) {
 		(minimist['skip'].split(',')).forEach((item) => { delete cvData[item] });
@@ -135,6 +135,15 @@ renderedTemplate.then(function (html) {
 	console.log(chalk.red('ERROR: ' + err));
 });
 
+function loadCVData() {
+	if (minimist['cv']) {
+		let cvPath = path.resolve(minimist['cv']);
+		console.log(`Loading CV data from ${cvPath}`);
+		return require(cvPath);
+	} else {
+		return require('./data/cv.json');
+	}
+}
 
 /**
  * PhantomJS prefers paths starting with file:///...
@@ -162,10 +171,10 @@ function getRoot() {
 function checkTemplateFolder( templateId ) {
 	try {
 		fs.accessSync('views/' + templateId, fs.F_OK);
-		console.log( chalk.green('Rendering template: ' + template) );
+		console.log( chalk.green(`Rendering template: ${template}`) );
 		return true;
 	} catch (e) {
-		console.log( chalk.red('Can\'t find template: ' + template) );
+		console.log( chalk.red(`Can't find template: ${template}`) );
 		return false;
 	}
 }
