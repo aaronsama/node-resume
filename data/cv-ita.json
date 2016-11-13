@@ -1,0 +1,126 @@
+{
+	"name": "Aaron Ciaghi",
+	"title": "Ricercatore - Full stack developer - Project manager",
+	"born": "1985",
+	"email": "aaron.ciaghi@gmail.com",
+	"website": "http://aaronsama.github.io",
+	"skype": "a2ron-sama",
+	"family": "coniugato",
+	"phone": "+39 333 4366364",
+	"residence": "via Marsilli 7, 38068 Rovereto, Italy",
+	"short_bio": "Ricercatore in ICT e sviluppatore full stack con 5 anni di esperienza in sviluppo e gestione di progetti con metodologie Agili (SCRUM). Attualmente, le mie attività principali sono la progettazione, la gestione e lo sviluppo di progetti software con fini sociali e per il Sud del Mondo.",
+	"technologies": {
+		"frontend": "JavaScript, HTML5, CSS3, jQuery, AngularJS, SASS, Bootstrap, MDL",
+		"backend": "Ruby, Ruby on Rails, Node.js",
+		"testing": "RSpec, Cucumber",
+		"project management": "JIRA, Redmine"
+	},
+
+	"social_portals": [
+		{"title": "Github", "baseurl": "https://github.com", "url": "aaronsama" },
+		{"title": "LinkedIn", "baseurl": "https://it.linkedin.com/in", "url": "aaron.ciaghi" },
+		{"title": "Twitter", "baseurl": "http://twitter.com", "url": "a2ronsama" }
+	],
+
+	"education": [
+		{
+			"date": "2010 - 2014",
+			"description": "Università di Trento - PhD in Information and Communication Technologies"
+		},
+		{
+			"date": "2007 - 2010",
+			"description": "Università di Trento e Georgia Institute of Technology - Doppia Laurea magistrale in Informatica"
+		},
+		{
+			"date": "2004 - 2007",
+			"description": "Università di Trento - Laurea Triennale in Informatica"
+		}
+	],
+
+	"projects": [
+		{
+			"title": "BringTheFood per la Ristorazione",
+			"description": "Project Manager e sviluppatore. Applicazione web (Ruby on Rails) per enti caritativi e mense per gestire le donazioni e il recupero di cibo.",
+			"url": "http://ristorazione.bringfood.org"
+		},
+		{
+			"title": "OraDona - Chi raccoglie più cibo?",
+			"description": "Sviluppatore. Applicazione mobile (Ionic, Cordova, AngularJS) per volontari di collette alimentari.",
+			"url": "http://www.collettainoratorio.it"
+		},
+		{
+			"title": "BringTheFood",
+			"description": "Project manager e sviluppatore. Applicazione web e API (Ruby on Rails) per supportare diversi processi di donazione e recupero di alimenti, dall'utenza domestica ai grandi produttori ortofrutticoli.",
+			"url": "https://www.bringfood.org/"
+		},
+		{
+			"title": "SAMo - Social Accountability for Mozambique",
+			"description": "Sviluppatore. Applicazione web e API (Ruby on Rails) per supportare raccolte dati sullo stato dei servizi governativi nelle aree rurali del Mozambico.",
+			"url": "http://ict4sa.org/samo"
+		}
+	],
+
+	"job_history": [
+		{
+			"employer": "Fondazione Bruno Kessler - Centre for ICT",
+			"date": "2014 - oggi",
+			"role": "Ricercatore",
+      "description": "Gestione e sviluppo di progetti software con finalità sociali. Coordinamento e scrittura di proposted i progetto (FP7 e H2020). Ricerca in ICT4D e spreco alimentare. Organizzazione di corsi di formazione su sviluppo Agile in Mozambico e Sudafrica. Supervisione di studenti, sviluppatori e tesi in informatica (triennali e magistrali)."
+		},
+		{
+			"employer": "Università di Trento - Dipartimento di Scienze Cognitive",
+			"date": "2016",
+			"role": "Formatore",
+			"description": "Organizzazione di un corso di formazione di 15 ore per personale tecnico del dipartimento su Javascript, SASS, AngularJS e Ionic."
+		},
+		{
+			"employer": "Belka s.r.l.",
+			"date": "2015",
+			"role": "Consulente",
+			"description": "Avviamento dello sviluppo di una applicazione mobile di sharing economy per consegne peer-to-peer. Sviluppo in Ionic, Cordova e AngularJS e introduzione di best practices e standard di codice."
+		},
+		{
+			"employer": "Fondazione Bruno Kessler e Università di Trento",
+			"date": "2010 - 2014",
+			"role": "Dottorando",
+			"description": "Tesi di dottorato sull'introduzione di un Maturity Model per la gestione di progetti software in paesi in via di sviluppo."
+		}
+	],
+
+	"teaching": [
+		{
+			"date": "2014 - 2016",
+			"institution": "Fort Hare University, ECITI Business Incubator, Propella Business Incubator",
+			"course": "Ruby on Rails Development Workshop"
+		},
+		{
+			"date": "2016",
+			"institution": "Università di Trento - Dipartimento di Scienze Cognitive",
+			"course": "Javascript avanzato e framework front-end."
+		},
+		{
+			"date": "2011 - 2013",
+			"institution": "Maputo Living Lab",
+			"course": "Summer School of ICTs and Summer School of Ruby on Rails"
+		},
+		{
+			"date": "2010 - 2012",
+			"institution": "Università di Trento - Dipartimento di Ingegneria e Scienza dell'Informazione",
+			"course": "eGovernment Case Studies (parte del master professionale in tecnologie per l'eGovernment)"
+		}
+	],
+
+	"spoken_languages": [
+		{"language": "Italiano", "level": "lingua madre"},
+		{"language": "Inglese", "level": "fluente"},
+		{"language": "Giapponese", "level": "intermedio"},
+		{"language": "Portoghese", "level": "base"},
+		{"language": "Tedesco", "level": "base"},
+		{"language": "Cinese (Mandarino)", "level": "base"}
+	],
+
+	"volunteering": [
+		"AFS Intercultura ONLUS (dal 2002)",
+		"Yomoyamabanashi (dal 2007)"
+	]
+}
