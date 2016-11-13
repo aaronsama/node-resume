@@ -38,23 +38,28 @@
 
 	"projects": [
 		{
+			"title": "Sea for All",
+			"description": "Full Stack Developer. Boat sharing web application. (side project)",
+			"url": "http://ristorazione.bringfood.org"
+		},
+		{
 			"title": "BringTheFood per la Ristorazione",
-			"description": "Web application for charities and canteens to track food waste and donate the daily excess.",
+			"description": "Project Manager and Developer. Web application for charities and canteens to track food waste and donate the daily excess.",
 			"url": "http://ristorazione.bringfood.org"
 		},
 		{
 			"title": "OraDona - Chi raccoglie più cibo?",
-			"description": "Mobile app to help volunteers tally food donations received during food drives",
+			"description": "Developer. Mobile app to help volunteers tally food donations received during food drives.",
 			"url": "http://www.collettainoratorio.it"
 		},
 		{
 			"title": "BringTheFood",
-			"description": "A web application and API to support various food donation/recovery processes.",
+			"description": "Project Manager and Developer. A web application and API to support various food donation/recovery processes.",
 			"url": "https://www.bringfood.org/"
 		},
 		{
 			"title": "SAMo - Social Accountability for Mozambique",
-			"description": "A web application and API to help citizens support Governments in assessing the current status of facilities in Mozambique's rural areas.",
+			"description": "Developer. A web application and API to help citizens support Governments in assessing the current status of facilities in Mozambique's rural areas.",
 			"url": "http://ict4sa.org/samo"
 		}
 	],
