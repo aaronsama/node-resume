@@ -30,11 +30,9 @@
 					<p>{{portal.title}}: <a href="{{portal.baseurl}}/{{portal.url}}">{{portal.url}}</a></p>
 				{% endfor %}
 			{% endif %}
-		</article>
-
-		<article class="entry">
-			<h3>Skype</h3>
-			<p>{{skype}}</p>
+			{% if skype %}
+				<p>Skype: {{skype}}</p>
+			{% endif %}
 		</article>
 
 		{% if technologies %}
@@ -104,9 +102,9 @@
 							<strong>{{project.title}}</strong>
 							<br>
 							{{project.description}}
-							<br>
 							{% if project.url %}
-								<a href="{{project.url}}">{{project.url}}</a>
+								<br>
+								<small><a href="{{project.url}}">{{project.url}}</a></small>
 							{% endif %}
 						</li>
 					{% endfor %}
