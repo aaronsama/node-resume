@@ -1,12 +1,6 @@
 {
 	"name": "Aaron Ciaghi",
 	"title": "Researcher - Full stack developer",
-	"born": "1985",
-	"email": "aaron.ciaghi@gmail.com",
-	"skype": "a2ron-sama",
-	"family": "married",
-	"phone": "+39 333 4366364",
-	"residence": "via Marsilli 7, 38068 Rovereto, Italy",
 	"short_bio": "I'm a resarcher in ICT and a full stack developer with 5+ years of experience in Agile software development in Ruby on Rails. My current focus is on the design and implementation of web/mobile applications that address social issues and for rural areas in the Global South.",
 	"technologies": {
 		"backend": "Ruby, Ruby on Rails",

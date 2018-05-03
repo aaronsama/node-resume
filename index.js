@@ -136,12 +136,17 @@ renderedTemplate.then(function (html) {
 });
 
 function loadCVData() {
+	const personalData = require('./data/personal_data.json');
+
 	if (minimist['cv']) {
 		let cvPath = path.resolve(minimist['cv']);
 		console.log(`Loading CV data from ${cvPath}`);
-		return require(cvPath);
+		const cvData = require(cvPath);
+
+		return Object.assign({}, cvData, personalData);
 	} else {
-		return require('./data/cv.json');
+		const cvData = require('./data/cv.json');
+		return Object.assign({}, cvData, personalData);
 	}
 }
 

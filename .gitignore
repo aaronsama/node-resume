@@ -1,2 +1,4 @@
 .vscode
 node_modules
+data/personal_data.json
+cv.pdf

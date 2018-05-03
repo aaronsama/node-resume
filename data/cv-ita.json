@@ -1,13 +1,6 @@
 {
 	"name": "Aaron Ciaghi",
 	"title": "Ricercatore - Full stack developer - Project manager",
-	"born": "1985",
-	"email": "aaron.ciaghi@gmail.com",
-	"website": "http://aaronsama.github.io",
-	"skype": "a2ron-sama",
-	"family": "coniugato",
-	"phone": "+39 333 4366364",
-	"residence": "via Marsilli 7, 38068 Rovereto, Italy",
 	"short_bio": "Ricercatore in ICT e sviluppatore full stack con 5 anni di esperienza in sviluppo e gestione di progetti con metodologie Agili (SCRUM). Attualmente, le mie attività principali sono la progettazione, la gestione e lo sviluppo di progetti software con fini sociali e per il Sud del Mondo.",
 	"technologies": {
 		"frontend": "JavaScript, HTML5, CSS3, jQuery, AngularJS, SASS, Bootstrap, MDL",
