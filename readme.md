@@ -14,7 +14,7 @@ Install dependenceis with `npm install`.
 
 ### Step 2
 
-Edit the contents of `data/cv-empty.json`.
+Edit the contents of `data/cv-empty.json` and save it as `data/cv.json`. Copy the file `data/personal_data_empty.json` into a new file called `data/personal_data.json` and fill in your personal data. This file is always merged with the main cv file and it is gitignored so that you don't inadvertently share your personal data with the rest of the world.
 
 ### Step 2b (optional)
 

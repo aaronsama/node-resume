@@ -1,12 +1,6 @@
 {
 	"name": "Aaron Ciaghi",
 	"title": "Researcher - Full stack developer",
-	"born": "***REMOVED***",
-	"email": "***REMOVED***",
-	"skype": "***REMOVED***",
-	"family": "***REMOVED***",
-	"phone": "***REMOVED***",
-	"residence": "***REMOVED***",
 	"short_bio": "I'm a resarcher in ICT and a full stack developer with 5+ years of experience in Agile software development in Ruby on Rails. My current focus is on the design and implementation of web/mobile applications that address social issues and for rural areas in the Global South.",
 	"technologies": {
 		"backend": "Ruby, Ruby on Rails",
