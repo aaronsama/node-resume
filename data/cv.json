@@ -5,7 +5,9 @@
 	"technologies": {
 		"backend": "Ruby, Ruby on Rails",
 		"frontend": "JavaScript, HTML5, CSS3/SASS, React/Redux, jQuery, Bootstrap, MDL/MCW",
-		"devops": "Docker"
+		"devops": "Docker",
+		"testing": "RSpec, Cucumber",
+		"project management": "JIRA, Redmine"
 	},
 
 	"social_portals": [
@@ -67,7 +69,7 @@
 			"employer": "Fondazione Bruno Kessler - ICT Research Centre",
 			"date": "2014 - present",
 			"role": "Researcher",
-      "description": "Managed and actively involved in software projects for social good. Coordinated the writing of grant proposals (including FP7 and H2020). Conducted research in ICT4D and Food Waste supply chain. Organized and conducted training in Mozambique and South Africa on Agile software development. Supervised students, junior developers, BS and MS computer science theses."
+      "description": "Managed and actively involved in software projects for social good. Coordinated the writing of grant proposals (including FP7 and H2020). Conducted research in ICT4D and Food Waste supply chain. Organized and conducted training in Mozambique and South Africa on Agile software development. Participated to the organization of 10 hackathons with a focus on social impact and ICT4D. Supervised students, junior developers, BS and MS computer science theses."
 		},
 		{
 			"employer": "Horecapp s.r.l.s.",
@@ -86,7 +88,7 @@
 	"teaching": [
 		{
 			"date": "2014 - 2017",
-			"institution": "Fort Hare University, ECITI Business Incubator, Propella Business Incubator",
+			"institution": "Fort Hare University, ECITI Business Incubator, Propella Business Incubator, Seda Nelson Mandela Bay ICT Incubator",
 			"course": "Ruby on Rails Development Workshop"
 		},
 		{

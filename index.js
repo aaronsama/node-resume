@@ -35,7 +35,7 @@ try {
 	let pubData = BibTexParser(bibTexData);
 
 	cvData.publications = pubData.entries.sort(function(pub1, pub2) {
-		return parseInt(pub2.Fields.Year) - parseInt(pub1.Fields.Year);
+		return parseInt(pub2.Fields.year) - parseInt(pub1.Fields.year);
 	});
 } catch(e) {
 	console.log(chalk.yellow('No publications file found. Add them in BiBTeX format to ./data/publications.bib'));

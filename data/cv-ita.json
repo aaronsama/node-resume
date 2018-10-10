@@ -1,10 +1,11 @@
 {
 	"name": "Aaron Ciaghi",
-	"title": "Ricercatore - Full stack developer - Project manager",
-	"short_bio": "Ricercatore in ICT e sviluppatore full stack con 5 anni di esperienza in sviluppo e gestione di progetti con metodologie Agili (SCRUM). Attualmente, le mie attività principali sono la progettazione, la gestione e lo sviluppo di progetti software con fini sociali e per il Sud del Mondo.",
+	"title": "Ricercatore - Full stack developer",
+	"short_bio": "Ricercatore in ICT e sviluppatore full stack con oltre 5 anni di esperienza in sviluppo di progetti con metodologie Agili. Attualmente, le mie attività principali sono la progettazione, la gestione e lo sviluppo di progetti software con fini sociali e per il Sud del Mondo.",
 	"technologies": {
-		"frontend": "JavaScript, HTML5, CSS3, jQuery, AngularJS, SASS, Bootstrap, MDL",
-		"backend": "Ruby, Ruby on Rails, Node.js",
+		"backend": "Ruby, Ruby on Rails",
+		"frontend": "JavaScript, HTML5, CSS3/SASS, React/Redux, jQuery, Bootstrap, MDL/MCW",
+		"devops": "Docker",
 		"testing": "RSpec, Cucumber",
 		"project management": "JIRA, Redmine"
 	},
@@ -83,7 +84,7 @@
 	"teaching": [
 		{
 			"date": "2014 - 2016",
-			"institution": "Fort Hare University, ECITI Business Incubator, Propella Business Incubator",
+			"institution": "Fort Hare University, ECITI Business Incubator, Propella Business Incubator, Seda Nelson Mandela Bay ICT Incubator",
 			"course": "Ruby on Rails Development Workshop"
 		},
 		{

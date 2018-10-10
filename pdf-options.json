@@ -8,7 +8,9 @@
 		"contents": ""
 	},
 	"footer": {
-		"height": "15mm",
-		"contents": ""
-	}
+		"content": {
+			"default": ""
+		},
+    "height": "20mm"
+  }
 }
