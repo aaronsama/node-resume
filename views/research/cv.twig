@@ -18,22 +18,24 @@
 	</header>
 
 	<aside>
-		<article class="entry">
-			{% if website %}
-				<h3>Web</h3>
-				<p>
-					<a href="{{website}}">{{website}}</a>
-				</p>
-			{% endif %}
-			{% if social_portals %}
-				{% for portal in social_portals %}
-					<p>{{portal.title}}: <a href="{{portal.baseurl}}/{{portal.url}}">{{portal.url}}</a></p>
-				{% endfor %}
-			{% endif %}
-			{% if skype %}
-				<p>Skype: {{skype}}</p>
-			{% endif %}
-		</article>
+		{% if website or social_portals or skype %}
+			<article class="entry">
+				{% if website %}
+					<h3>Web</h3>
+					<p>
+						<a href="{{website}}">{{website}}</a>
+					</p>
+				{% endif %}
+				{% if social_portals %}
+					{% for portal in social_portals %}
+						<p>{{portal.title}}: <a href="{{portal.baseurl}}/{{portal.url}}">{{portal.url}}</a></p>
+					{% endfor %}
+				{% endif %}
+				{% if skype %}
+					<p>Skype: {{skype}}</p>
+				{% endif %}
+			</article>
+		{% endif %}
 
 		{% if technologies %}
 			<article class="entry">
@@ -182,5 +184,11 @@
 		</ul>
 	</article>
 	{% endif %}
+
+	<div class="gdpr-notice" id="pageFooter-last">
+		<p>
+			I hereby consent to the processing of the personal data contained in this CV in accordance with article 13 of the EU Regulation 679/16 "General Data Protection Regulation" (GDPR).
+		</p>
+	</div>
 </body>
 </html>
