@@ -10,7 +10,7 @@ Just edit a json, use the command line and you are ready to go.
 
 ### Step 1
 
-Install dependenceis with `npm install`.
+Install dependenceis with `yarn install`.
 
 ### Step 2
 
@@ -22,7 +22,7 @@ Edit or add your publications to `data/bibliography.bib`
 
 ### Step 3
 
-Type `npm start` in command line. That will render the default template called "basic". You can render other templates by adding the template name that you can find the the `views` folder, like `npm start classic`.
+Type `yarn start` in command line. That will render the default template called "basic". You can render other templates by adding the template name that you can find the the `views` folder, like `npm start classic`.
 
 ### Advanced Usage
 

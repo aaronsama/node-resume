@@ -1,11 +1,11 @@
 {
 	"name": "Aaron Ciaghi",
-	"title": "Researcher - Full stack developer",
-	"short_bio": "I'm a resarcher in ICT and a full stack developer with 5+ years of experience in Agile software development in Ruby on Rails. My current focus is on the design and implementation of web/mobile applications that address social issues and for rural areas in the Global South.",
+	"title": "Software Engineer",
+	"short_bio": "TODO",
 	"technologies": {
-		"backend": "Ruby, Ruby on Rails",
-		"frontend": "JavaScript, HTML5, CSS3/SASS, React/Redux, jQuery, Bootstrap, MDL/MCW",
-		"devops": "Docker",
+		"backend": "Ruby, Ruby on Rails, GraphQL",
+		"frontend": "JavaScript, HTML5, CSS3/SASS, React, jQuery, Bootstrap",
+		"devops": "Docker, Kubernetes",
 		"testing": "RSpec, Cucumber",
 		"project management": "JIRA, Redmine"
 	},
@@ -66,15 +66,21 @@
 
 	"job_history": [
 		{
+			"employer": "New Work SE (Xing)",
+			"date": "2019 - present",
+			"role": "Senior Software Engineer",
+			"description": ""
+		},
+		{
 			"employer": "Fondazione Bruno Kessler - ICT Research Centre",
-			"date": "2014 - present",
+			"date": "2014 - 2018",
 			"role": "Researcher",
       "description": "Managed and actively involved in software projects for social good. Coordinated the writing of grant proposals (including FP7 and H2020). Conducted research and development of applications in ICT4D and on reduction of food wast along the supply chain. Organized and conducted training in Mozambique and South Africa on Agile software development. Participated to the organization of 10 hackathons with a focus on social impact and ICT4D. Supervised students, junior developers, BS and MS computer science theses."
 		},
 		{
 			"employer": "Horecapp s.r.l.s.",
 			"date": "2017",
-			"role": "Senior Developer",
+			"role": "Software Engineer",
 			"description": "Developed a progressive web application for beverage wholesalers to receive orders directly from their clients. Responsibilities included leading the development process using Agile methods, supporting clients in the transition and business development."
 		},
 		{
@@ -109,16 +115,18 @@
 	],
 
 	"spoken_languages": [
-		{"language": "Italian", "level": "native"},
-		{"language": "English", "level": "fluent"},
-		{"language": "Japanese", "level": "intermediate"},
-		{"language": "Portuguese", "level": "basic"},
-		{"language": "German", "level": "basic"},
-		{"language": "Mandarin Chinese", "level": "basic"}
-	],
+    { "language": "Italian", "level": "native" },
+    { "language": "English", "level": "fluent" },
+    { "language": "Spanish", "level": "intermediate" },
+    { "language": "Catalan", "level": "intermediate" },
+    { "language": "Japanese", "level": "intermediate" },
+    { "language": "Portuguese", "level": "basic" },
+    { "language": "German", "level": "basic" },
+    { "language": "Mandarin Chinese", "level": "basic" }
+  ],
 
 	"volunteering": [
 		"AFS Intercultural Programs (since 2002): currently founder and president of my area's chapter.",
-		"Yomoyamabanashi (since 2007): board member in 2010-2014"
+		"Yomoyamabanashi (2007-2018): board member in 2010-2014"
 	]
 }

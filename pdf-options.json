@@ -1,6 +1,7 @@
 {
 	"format": "A4",
-	"base": "file:///views/",
+	"base": "file:///src/views/",
+	"localUrlAccess": true,
 	"header": {
 		"height": "20mm",
 		"margin": "0mm",

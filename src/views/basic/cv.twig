@@ -12,9 +12,11 @@
 	</header>
 
 	<header class="sub">
-		<div class="item">Born: {{born}}</div>
-		<div class="item">Email: {{email}}</div>
-		<div class="item">Residency: {{residence}}</div>
+		{% if born %}
+			<div class="item">Born: {{born}}</div>
+		{% endif %}
+		<div class="item">{{email}}</div>
+		<div class="item">{{residence}}</div>
 	</header>
 
 	<aside>
