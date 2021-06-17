@@ -55,31 +55,31 @@
 	],
 
 	"job_history": [
-		{
-			"employer": "Fondazione Bruno Kessler - Centre for ICT",
-			"date": "2014 - oggi",
-			"role": "Ricercatore",
+    {
+      "employer": "New Work SE (Xing)",
+      "date": "2019 - oggi",
+      "role": "Senior Software Engineer (Full-stack)",
+      "description": "Manutenzione del prodotto legacy e sviluppo della nuova versione della sezione Communities di Xing, la principale rete sociale professionale in Germania, Austria e Svizzera, con oltre 19 milioni di utenti."
+    },
+    {
+      "employer": "Fondazione Bruno Kessler - Centre for ICT",
+      "date": "2014 - 2018",
+      "role": "Ricercatore",
       "description": "Gestione e sviluppo di progetti software con finalità sociali. Coordinamento e scrittura di proposted i progetto (FP7 e H2020). Ricerca in ICT4D e spreco alimentare. Organizzazione di corsi di formazione su sviluppo Agile in Mozambico e Sudafrica. Supervisione di studenti, sviluppatori e tesi in informatica (triennali e magistrali)."
-		},
-		{
-			"employer": "Università di Trento - Dipartimento di Scienze Cognitive",
-			"date": "2016",
-			"role": "Formatore",
-			"description": "Organizzazione di un corso di formazione di 15 ore per personale tecnico del dipartimento su Javascript, SASS, AngularJS e Ionic."
-		},
-		{
-			"employer": "Belka s.r.l.",
-			"date": "2015",
-			"role": "Consulente",
-			"description": "Avviamento dello sviluppo di una applicazione mobile di sharing economy per consegne peer-to-peer. Sviluppo in Ionic, Cordova e AngularJS e introduzione di best practices e standard di codice."
-		},
-		{
-			"employer": "Fondazione Bruno Kessler e Università di Trento",
-			"date": "2010 - 2014",
-			"role": "Dottorando",
-			"description": "Tesi di dottorato sull'introduzione di un Maturity Model per la gestione di progetti software in paesi in via di sviluppo."
-		}
-	],
+    },
+    {
+      "employer": "Horecapp s.r.l.s.",
+      "date": "2017",
+      "role": "Software Engineer",
+      "description": "Sviluppo di una progressive web app rivolta a grossisti di bevande e loro clienti per la gestione diretta degli ordini senza intermediazione degli agenti. Attività di sviluppo software affiancata a attività di supporto allo sviluppo del business e all'adozione presso i primi clienti."
+    },
+    {
+      "employer": "Belka s.r.l.",
+      "date": "2015",
+      "role": "Consulente",
+      "description": "Avviamento dello sviluppo di una applicazione mobile di sharing economy per consegne peer-to-peer. Sviluppo in Ionic, Cordova e AngularJS e introduzione di best practices e standard di codice."
+    }
+  ],
 
 	"teaching": [
 		{
