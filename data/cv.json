@@ -1,12 +1,12 @@
 {
 	"name": "Aaron Ciaghi",
 	"title": "Software Engineer",
-	"short_bio": "TODO",
+	"short_bio": "Full-stack software engineer at NEW WORK SE (Xing) in sunny Barcelona with an academic background in computer science. My primary weapon of choice is Ruby on Rails but I also like venturing into front-end land with React. I'm currently working on re-building the Communities product of Xing, the leading professional social network for the DACH region. Before moving to Barcelona I worked 8 years, first as a PhD student and later as a researcher, at Fondazione Bruno Kessler in Trento (Italy) where I was the main developer of BringTheFood, a web application to support the Italian Food Bank and other organizations in managing food donations.",
 	"technologies": {
 		"backend": "Ruby, Ruby on Rails, GraphQL",
-		"frontend": "JavaScript, HTML5, CSS3/SASS, React, jQuery, Bootstrap",
+		"frontend": "JavaScript, TypeScript, React",
 		"devops": "Docker, Kubernetes",
-		"testing": "RSpec, Cucumber",
+		"testing": "RSpec, Cucumber, React Testing Library, Jest",
 		"project management": "JIRA, Redmine"
 	},
 
@@ -23,7 +23,7 @@
 		},
 		{
 			"date": "2007 - 2010",
-			"description": "University of Trento and Georgia Institute of Technology - MS Degree in Computer Science"
+			"description": "University of Trento and Georgia Institute of Technology - MS Degree in Computer Science (dual degree)"
 		},
 		{
 			"date": "2004 - 2007",
@@ -68,14 +68,14 @@
 		{
 			"employer": "New Work SE (Xing)",
 			"date": "2019 - present",
-			"role": "Senior Software Engineer",
-			"description": ""
+			"role": "Senior Software Engineer (Full-stack)",
+			"description": "Maintaining the legacy Communities product and building its new incarnation from the ground up for Xing, the leading professional social network in the DACH region serving 19M+ users. Primarily working with the Ruby on Rails backend and React frontend of the Communities products, integrating them with the rest of the Xing platform, throwing GraphQL, Kafka, and occasionally even Scala into the mix."
 		},
 		{
 			"employer": "Fondazione Bruno Kessler - ICT Research Centre",
 			"date": "2014 - 2018",
 			"role": "Researcher",
-      "description": "Managed and actively involved in software projects for social good. Coordinated the writing of grant proposals (including FP7 and H2020). Conducted research and development of applications in ICT4D and on reduction of food wast along the supply chain. Organized and conducted training in Mozambique and South Africa on Agile software development. Participated to the organization of 10 hackathons with a focus on social impact and ICT4D. Supervised students, junior developers, BS and MS computer science theses."
+      "description": "Managed and actively involved in software projects for social good, writing of grant proposals, research and development of food waste reduction applications. Organized and conducted trainings in Mozambique and South Africa on software development using Ruby on Rails. Participated to the organization of 10 hackathons with a focus on social impact and ICT4D. Supervised students, junior developers, BS and MS computer science theses."
 		},
 		{
 			"employer": "Horecapp s.r.l.s.",
