@@ -3,17 +3,16 @@ import Q from "q";
 import twig from "twig";
 import fs from "fs";
 import pdf from 'html-pdf';
+import _ from "lodash";
 
 /**
  * Render template and generate PDF
  */
 const cvToPdf = (cvData, template) => {
-  const pdfOptions = JSON.parse(fs.readFileSync("./pdf-options.json"));
+  const sharedPdfOptions = JSON.parse(fs.readFileSync("./pdf-options.json"));
+  const templatePdfOptions = JSON.parse(fs.readFileSync(`./src/views/${template}/pdf-options.json`));
 
-  /**
-   * Tell "html-pdf" which template to look assets for
-   */
-  pdfOptions.base += template;
+  const pdfOptions = _.merge(sharedPdfOptions, templatePdfOptions);
 
   const createTemplate = Q.denodeify(twig.renderFile);
   const renderedTemplate = createTemplate(
@@ -24,8 +23,6 @@ const cvToPdf = (cvData, template) => {
   renderedTemplate
     .then((html) => {
       console.log(chalk.green("Looks good, just a second..."));
-
-      console.log(html);
 
       var deferred = Q.defer();
 
